@@ -3,62 +3,74 @@
   <head>
     <title>Chat Bot</title>
     <style>
-      
-      article {
-        border: 1px solid grey;
-        width: 28%;
-        margin: auto;
-        padding: 20px 50px; 
+      * {
+        margin: 0;
+        padding: 0;
         font-family: sans-serif;
-
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: 300;
+        letter-spacing: 1px;
       }
 
-      div{
-        border: 1px solid black;
-        width: 50px;
+      section {
+        width: 24%;
+        margin: 10% auto;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 2% 3%;
+      }
+
+      section > * {
+        margin-block: 6%;
       }
 
       h1 {
-        font-size: 40px;
-        font-weight: 300;
-        color:rgba(87, 87, 87, 1)
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 30px;
+        margin-top: 0px;
       }
 
-     #website-description{
-      font-weight: 200;
-      color:rgba(106, 106, 106, 1)  ;
-      font-size: 23px;
-      letter-spacing: 0.5px;
-     }
+      #rule {
+        width: 12%;
+        border: 1px solid black;
+      }
 
-      #button {
-        text-align: center;
+      p {
+        color: rgba(0, 0, 0, 0.5);
+        line-height: 22px;
+      }
+
+      a {
+        display: block;
         color: white;
         background-color: #4184e1;
-        border-radius: 30px;
-        padding-block: 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 2%;
+        border-radius: 20px;
       }
 
-      #button-description {
-        font-size: 16px;
-        color:rgba(176, 176, 176, 1);
-        font-weight: 100;     
+      .tnc {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.4);
+        line-height: 16px;
+        margin-bottom: 0px;
       }
     </style>
   </head>
   <body>
-    <article>
-      <h1>Build Your first chatbot in 10 minutes! </h1>
-      <div></div>
-      <p id="website-description">
+    <section>
+      <h1>Build your first chatbot in 10 minutes!</h1>
+      <div id="rule"></div>
+      <p>
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
       </p>
-      <p id="button">TRY NOW &#8594</p>
-      <p id="button-description">
+      <a href="">try now &RightArrow;</a>
+      <p class="tnc">
         By clicking try now you create an account and agree to our Terms and
-        Conditions and Privacy Policy
+        Conditions and Privacy policy.
       </p>
-    </article>
+    </section>
   </body>
 </html>
